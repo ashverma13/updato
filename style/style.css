@@ -1,0 +1,517 @@
+* {
+	margin:0;
+	padding:0;
+	outline:none;
+	border:0;
+	-moz-box-sizing:inherit;
+	-webkit-box-sizing:inherit;
+	box-sizing:inherit;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src:url('../fonts/proxima_nova_bold_italic-webfont.eot');
+	src:url('../fonts/proxima_nova_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/proxima_nova_bold_italic-webfont.woff2') format('woff2'),
+		url('../fonts/proxima_nova_bold_italic-webfont.woff') format('woff'),
+		url('../fonts/proxima_nova_bold_italic-webfont.ttf') format('truetype'),
+		url('../fonts/proxima_nova_bold_italic-webfont.svg#proxima_novabold_italic') format('svg');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src:url('../fonts/proxima_nova_bold-webfont.eot');
+	src:url('../fonts/proxima_nova_bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'),
+		url('../fonts/proxima_nova_bold-webfont.woff') format('woff'),
+		url('../fonts/proxima_nova_bold-webfont.ttf') format('truetype'),
+		url('../fonts/proxima_nova_bold-webfont.svg#proxima_nova_rgbold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src:url('../fonts/proxima_nova_light-webfont.eot');
+	src:url('../fonts/proxima_nova_light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/proxima_nova_light-webfont.woff2') format('woff2'),
+		url('../fonts/proxima_nova_light-webfont.woff') format('woff'),
+		url('../fonts/proxima_nova_light-webfont.ttf') format('truetype'),
+		url('../fonts/proxima_nova_light-webfont.svg#proxima_nova_ltlight') format('svg');
+	font-weight: 1000;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src:url('../fonts/proxima_nova_regular_italic-webfont.eot');
+	src:url('../fonts/proxima_nova_regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/proxima_nova_regular_italic-webfont.woff2') format('woff2'),
+		url('../fonts/proxima_nova_regular_italic-webfont.woff') format('woff'),
+		url('../fonts/proxima_nova_regular_italic-webfont.ttf') format('truetype'),
+		url('../fonts/proxima_nova_regular_italic-webfont.svg#proxima_novaregular_italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src:url('../fonts/proxima_nova_regular-webfont.eot');
+	src:url('../fonts/proxima_nova_regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/proxima_nova_regular-webfont.woff2') format('woff2'),
+		url('../fonts/proxima_nova_regular-webfont.woff') format('woff'),
+		url('../fonts/proxima_nova_regular-webfont.ttf') format('truetype'),
+		url('../fonts/proxima_nova_regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src:url('../fonts/proxima_nova_semibold_italic-webfont.eot');
+	src:url('../fonts/proxima_nova_semibold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/proxima_nova_semibold_italic-webfont.woff2') format('woff2'),
+		url('../fonts/proxima_nova_semibold_italic-webfont.woff') format('woff'),
+		url('../fonts/proxima_nova_semibold_italic-webfont.ttf') format('truetype'),
+		url('../fonts/proxima_nova_semibold_italic-webfont.svg#proxima_novasemibold_italic') format('svg');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src:url('../fonts/proxima_nova_semibold-webfont.eot');
+	src:url('../fonts/proxima_nova_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/proxima_nova_semibold-webfont.woff2') format('woff2'),
+		url('../fonts/proxima_nova_semibold-webfont.woff') format('woff'),
+		url('../fonts/proxima_nova_semibold-webfont.ttf') format('truetype'),
+		url('../fonts/proxima_nova_semibold-webfont.svg#proxima_nova_ltsemibold') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'Haiku';
+	src:url("../fonts/Haiku_s_Script_version_09_Bold.eot?") format("eot"),
+		url("../fonts/Haiku_s_Script_version_09_Bold.woff") format("woff"),
+		url("../fonts/Haiku_s_Script_version_09_Bold.ttf") format("truetype"),
+		url("../fonts/Haiku_s_Script_version_09_Bold.svg#Haiku'sScriptv.09Bold") format("svg");
+	font-weight:bold;
+	font-style:normal;
+}
+
+
+html {
+	-webkit-text-size-adjust:none;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+input,
+select,
+textarea {
+	-webkit-appearance:none;
+	border-radius:0;
+	box-shadow:none;
+	line-height:1.6;
+	font-family:'Proxima Nova', Arial, Helvetica, sans-serif;
+}
+
+img {
+	max-width:100%;
+	vertical-align:middle;
+}
+
+body {
+	font-family:'Proxima Nova', Arial, Helvetica, sans-serif;
+	line-height:1.6;
+}
+
+.clear:before,
+.clear:after,
+.wrapper:before,
+.wrapper:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:link {
+	color:inherit;
+	text-decoration:none;
+}
+
+.header-inner,
+.banner-home {
+	background:#222537;
+}
+
+.wrapper {
+	max-width:1280px;
+	width:100%;
+	padding:0 15px;
+	margin:0 auto;
+}
+
+.header {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	z-index:99999;
+	padding:10px 60px;
+}
+
+.banner-home .wrapper {
+	max-width:1380px;
+}
+
+.banner-home {
+	padding:220px 0 190px;
+}
+
+.logo {
+	float:left;
+}
+
+a.search-page {
+	float:right;
+	display:block;
+	margin-top:8px;
+	color:#fff;
+	font-size:20px;
+}
+
+.main-nav {
+	text-align:center;
+	list-style:none;
+	padding:5px 150px;
+	font-size:0;
+}
+
+.main-nav li {
+	font-size:18px;
+	color:#fff;
+	text-transform:capitalize;
+	display:inline-block;
+	vertical-align:middle;
+	font-weight:500;
+}
+
+.main-nav li + li {
+	margin-left:30px;
+}
+
+.main-nav li span {
+	font-weight:normal;
+	font-size:16px;
+}
+
+.main-nav li span:before {
+	display:block;
+}
+
+.main-nav li:first-of-type {
+	color:#e8b75b;
+	margin-right:30px;
+}
+
+.find-firmware-container {
+	float:left;
+	width:50%;
+	margin-top:50px;
+}
+
+.find-firmware-container h3,
+.unlock-phone-container h3 {
+	font-size:40px;
+	color:#fff;
+	font-weight:500;
+}
+
+.firmware-search-form {
+	position:relative;
+}
+
+.firmware-search-form input[type=search] {
+	position:relative;
+	z-index:3;
+	width:100%;
+	background:none;
+	border:0;
+	color:#7d7f89;
+	font-size:18px;
+	background:-moz-repeating-linear-gradient(45deg, #494b5a, #494b5a 1px, transparent 1px, transparent 2px);
+	background:-webkit-repeating-linear-gradient(45deg, #494b5a, #494b5a 1px, transparent 1px, transparent 2px);
+	background:-ms-repeating-linear-gradient(45deg, #494b5a, #494b5a 1px, transparent 1px, transparent 2px);
+	background:-o-repeating-linear-gradient(45deg, #494b5a, #494b5a 1px, transparent 1px, transparent 2px);
+	background:repeating-linear-gradient(45deg, #494b5a, #494b5a 1px, transparent 1px, transparent 2px);
+	background-size:100% 8px;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	padding:10px 40px 20px 0;
+}
+
+.firmware-search-form label {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:4;
+	color:#7d7f89;
+	padding:10px 0;
+	font-size:18px;
+	cursor:text;
+	-moz-transition:all 0.15s;
+	-webkit-transition:all 0.15s;
+	-ms-transition:all 0.15s;
+	-o-transition:all 0.15s;
+	transition:all 0.15s;
+}
+
+.firmware-search-form input[type=search]:focus + label,
+.firmware-search-form input[type=search]:valid + label {
+	opacity:0;
+	z-index:1;
+}
+
+.firmware-search-form label span.updato-help {
+	display:inline-block;
+	width:16px;
+	height:16px;
+	line-height:14px;
+	font-size:10px;
+	border:1px solid #7d7f89;
+	border-radius:100%;
+	text-align:center;
+	vertical-align:baseline;
+}
+
+.firmware-search-form label span.updato-help:before {
+	display:block;
+	line-height:14px;
+}
+
+.firmware-search-form button {
+	position:absolute;
+	cursor:pointer;
+	right:0;
+	top:0;
+	color:#43629c;
+	font-size:22px;
+	background:none;
+	border:0;
+	padding:10px 0;
+	z-index:4;
+}
+
+.unlock-phone-container {
+	width:35.55%;
+	float:right;
+}
+
+.unlock-phone-container p {
+	font-size:21px;
+	color:#fff;
+}
+
+.unlock-phone-container p span {
+	color:#5dbeb2;
+}
+
+.unlock-phone-container .custom-select {
+	width:100%;
+	max-width:270px;
+	margin-top:30px;
+}
+
+.custom-select {
+	position:relative;
+}
+
+.custom-select select {
+	border:2px solid #454857;
+	border-radius:2px;
+	width:100%;
+	-moz-appearance:none;
+	-o-appearance:none;
+	background:none;
+	-ms-appearance:none;
+	-webkit-appearance:none;
+	appearance:none;
+	padding:10px;
+	font-size:16px;
+	color:#b2b3ba;
+}
+
+.custom-select span.updato-arrow-down {
+	color:#b2b3ba;
+	font-size:12px;
+	display:block;
+	position:absolute;
+	right:15px;
+	top:15px;
+	pointer-events:none;
+}
+
+.f-post-img span {
+	background-color:#5a8de2;
+	padding-bottom:60%;
+	background-size:cover;
+	background-position:center center;
+	width:100%;
+	display:block;
+}
+
+.f-post-img {
+	width:612px;
+	float:left;
+	position:relative;
+}
+
+.latest-posts {
+	padding-top:50px;
+}
+
+.title-info {
+	padding:5px 20px;
+	background:#de5350;
+	color:#fff;
+	font-size:12px;
+	border-radius:2px;
+	position:absolute;
+	top:30px;
+	left:-20px;
+	text-transform:uppercase;
+}
+
+.f-post-info {
+	padding-left:680px;
+}
+
+.f-post-info h3 span {
+	font-family:'Haiku', 'Proxima Nova', Arial, Helvetica, sans-serif;
+	text-transform:none;
+	font-size:38px;
+}
+
+.f-post-info h3 {
+	padding-top:10px;
+	font-weight:500;
+	font-size:28px;
+	color:#313448;
+	padding-right:20px;
+}
+
+.f-post-info h3.f-main-title {
+	text-transform:uppercase;
+	padding-top:40px;
+}
+
+.f-post-info p {
+	font-size:18px;
+	color:#a8a7a7;
+	margin-top:20px;
+}
+
+.post-img span {
+	display:block;
+	padding-bottom:83.334%;
+	background-size:cover;
+	background-position:center center;
+	width:100%;
+	background-color:#e7ecf0;
+}
+
+.post-item {
+	float:left;
+	width:23.50%;
+	margin-left:2%;
+	margin-top:20px;
+	box-shadow:0 2px 1px rgba(152,154,159,0.4);
+}
+
+.post-item:nth-of-type(4n+1) {
+	clear:left;
+	margin-left:0;
+}
+
+.post-img span.blue-placeholder {
+	background-color:#87cee0;
+}
+
+.post-img span.green-placeholder {
+	background-color:#5dbeb2;
+}
+
+.post-img span.yellow-placeholder {
+	background:#e8b75b;
+}
+
+.post-img span.red-placeholder {
+	background:#de5350;
+}
+
+.post-title {
+	font-size:18px;
+	color:#313448;
+	font-weight:normal;
+	padding:20px;
+}
+
+.post-date {
+	padding:0px 20px 20px;
+	text-transform:uppercase;
+	color:#a8a7a7;
+	font-size:12px;
+}
+
+.view-all-btn a {
+	font-size:14px;
+	color:#313448;
+	text-transform:uppercase;
+}
+
+.view-all-btn a span {
+	color:#5a8de2;
+	vertical-align:baseline;
+	font-size:10px;
+}
+
+.view-all-btn {
+	padding:20px 0 0;
+	text-align:right;
+}
+
+.section-title {
+	font-weight:500;
+	font-size:18px;
+	color:#313448;
+	text-transform:uppercase;
+}
+
+.section-title span {
+	font-size:28px;
+	text-transform:none;
+	font-family:'Haiku', 'Proxima Nova', Arial, Helvetica, sans-serif;
+}
+
+.popular-posts .post-item:nth-of-type(n+5) {
+	margin-top:40px;
+}
+
+.popular-posts {
+	padding-bottom:60px;
+}
+
+.latest-forum {
+	padding:60px 0;
+	background:#fbfbfc;
+	border-top:6px solid #f5f5f7;
+}

@@ -1,0 +1,101 @@
+@font-face {
+	font-family: "updato-fonts";
+	src:url("../fonts/updato-fonts.eot");
+	src:url("../fonts/updato-fonts.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/updato-fonts.woff") format("woff"),
+		url("../fonts/updato-fonts.ttf") format("truetype"),
+		url("../fonts/updato-fonts.svg#updato-fonts") format("svg");
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+[data-icon]:before {
+	font-family: "updato-fonts" !important;
+	content: attr(data-icon);
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class^="updato-"]:before,
+[class*=" updato-"]:before {
+	font-family: "updato-fonts" !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.updato-logo:before {
+	content: "\61";
+}
+.updato-more-icon:before {
+	content: "\62";
+}
+.updato-refresh:before {
+	content: "\63";
+}
+.updato-search:before {
+	content: "\64";
+}
+.updato-sort:before {
+	content: "\65";
+}
+.updato-star:before {
+	content: "\66";
+}
+.updato-tags:before {
+	content: "\67";
+}
+.updato-twitter:before {
+	content: "\68";
+}
+.updato-arrow-down:before {
+	content: "\69";
+}
+.updato-arrow-left:before {
+	content: "\6a";
+}
+.updato-arrow-right:before {
+	content: "\6b";
+}
+.updato-arrow-up:before {
+	content: "\6d";
+}
+.updato-back:before {
+	content: "\6e";
+}
+.updato-checkmark:before {
+	content: "\6f";
+}
+.updato-cross:before {
+	content: "\70";
+}
+.updato-discussion:before {
+	content: "\71";
+}
+.updato-facebook:before {
+	content: "\72";
+}
+.updato-google-plus:before {
+	content: "\73";
+}
+.updato-help:before {
+	content: "\74";
+}
+.updato-facebook-alternative:before {
+	content: "\75";
+}
+.updato-android:before {
+	content: "\6c";
+}
