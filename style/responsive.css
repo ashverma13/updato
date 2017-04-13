@@ -1,0 +1,234 @@
+@media only screen and (max-width:1250px) {
+	.header,
+	.footer {
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.f-post-img {
+		width:50%;
+	}
+	.f-post-info {
+		padding-left:52%;
+	}
+	.f-post-info h3.f-main-title {
+		padding-top:30px;
+	}
+	.main-search .m-search-btn {
+		left:15px;
+	}
+	.main-search .close-search {
+		right:15px;
+	}
+	.main-search input {
+		padding-left:50px;
+		padding-right:50px;
+	}
+	.banner-home .f-post-info {
+		padding-right:0;
+	}
+}
+
+@media only screen and (max-width:1024px) {
+	.main-nav > li > a {
+		padding-left:5px;
+		padding-right:5px;
+	}
+	.unlock-phone-container {
+		width:47%;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.mobile-menu {
+		float:right;
+		display:block;
+		margin:10px 0 0 30px;
+		width:32px;
+	}
+	.mobile-menu:before {
+		content:"";
+		display:block;
+		height:4px;
+		background:#fff;
+		width:100%;
+	}
+	.mobile-menu:after {
+		content:"";
+		display:block;
+		border-top:4px solid #fff;
+		border-bottom:4px solid #fff;
+		height:4px;
+		margin-top:4px;
+	}
+	.main-nav {
+		display:block;
+		padding:0;
+		position:absolute;
+		top:100%;
+		right:0;
+		width:250px;
+		max-width:50%;
+		background:#2d3041;
+		display:none;
+	}
+	.main-nav li {
+		display:block;
+		text-align:left;
+		margin:0;
+	}
+	.main-nav li:first-of-type,
+	.main-nav li + li {
+		margin:0;
+	}
+	.main-nav li a {
+		display:block;
+		padding:10px 20px;
+	}
+	.sub-nav {
+		left:auto;
+		right:100%;
+		top:0;
+		max-width:100%;
+	}
+	.main-nav > li > a:first-of-type:nth-last-child(2)::before,
+	.main-nav > li > a:hover:before,
+	.main-nav > li > a:before {
+		top:0;
+	}
+	.main-nav li span::before {
+		content:"More";
+		font-family:'Proxima Nova', Arial, Helvetica, sans-serif!important;
+		font-size:18px;
+		font-weight:500!important;
+	}
+	.find-firmware-container {
+		margin-top:0;
+		float:none;
+		width:100%;
+	}
+	.unlock-phone-container {
+		margin-top:30px;
+		float:none;
+		width:100%;
+	}
+	.f-post-img {
+		float:none;
+		width:100%;
+	}
+	.f-post-info {
+		padding-left:0;
+	}
+	.post-item {
+		width:49%;
+		float:left;
+		margin-left:2%;
+	}
+	.post-item:nth-of-type(odd) {
+		clear:left;
+		margin-left:0;
+	}
+	.forum-meta-info {
+		padding-right:0;
+	}
+	.forum-comments {
+		position:static;
+		padding-right:0;
+		margin-top:20px;
+	}
+	.foot-nav li + li {
+		margin-left:10px;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.forum-cat {
+		float:none;
+		width:100%;
+		text-align:left;
+		padding-left:30px;
+	}
+	.forum-meta-info {
+		margin-top:20px;
+		padding-left:30px;
+	}
+	.forum-item-list li::before {
+		left:7px;
+	}
+	.forum-item-list li::after {
+		left:0;
+	}
+	.foot-nav li,
+	.foot-nav li + li,
+	.foot-nav li:first-of-type {
+		margin:0 5px;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.banner-home {
+		padding:80px 0 60px;
+	}
+	.find-firmware-container h3,
+	.unlock-phone-container h3,
+	.f-post-info h3 {
+		font-size:22px;
+	}
+	.firmware-search-form label,
+	.unlock-phone-container p,
+	.f-post-info p,
+	.post-title {
+		font-size:16px;
+	}
+	.f-post-info h3.f-main-title,
+	.section-title2 {
+		font-size:24px;
+	}
+	.f-post-info h3.f-main-title {
+		padding-top:10px;
+	}
+	.post-title {
+		padding:10px;
+	}
+	.post-date {
+		padding:0 10px 10px;
+	}
+	.post-item,
+	.post-item:nth-of-type(2n+1),
+	.post-item:nth-of-type(4n+1) {
+		width:100%;
+		float:none;
+		clear:both;
+		margin-left:0;
+	}
+	a.join-discussion-btn {
+		clear:both;
+		float:none;
+		text-align:center;
+		margin-top:40px;
+	}
+	.load-more-btn a {
+		display:block;
+	}
+	.section-title2 {
+		float:none;
+	}
+	.latest-forum {
+		padding:30px 0;
+	}
+	.footer {
+		padding:30px 15px;
+	}
+	.foot-nav li {
+		font-size:10px;
+	}
+	.bottom-footer {
+		padding-top:30px;
+	}
+	.legal-info,
+	.foot-social-nav {
+		float:none;
+	}
+	.foot-social-nav {
+		margin-top:10px;
+	}
+}
