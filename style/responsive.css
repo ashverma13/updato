@@ -26,6 +26,13 @@
 	.banner-home .f-post-info {
 		padding-right:0;
 	}
+	.four-four-container {
+		padding:100px 0;
+	}
+	
+	.terms-page-container {
+		padding:70px 0px;
+	}
 }
 
 @media only screen and (max-width:1024px) {
@@ -241,6 +248,13 @@
 		margin-top:0;
 		width:100%;
 	}
+	.four-four-container {
+		padding:60px 0;
+	}
+	
+	.error-code {
+		padding:40px 0;
+	}
 }
 
 @media only screen and (max-width:600px) {
@@ -290,6 +304,38 @@
 		max-width:100%;
 		float:none;
 	}
+	.four-four-container {
+		padding:40px 0;
+	}
+	
+	.four-four-title {
+		font-size:64px;
+	}
+	
+	.four-four-heading {
+		font-size:24px;
+	}
+	
+	.error-code {
+		padding:30px 0;
+	}
+	
+	.terms-page-container {
+		padding:40px 0;
+	}
+	
+	.terms-page-title {
+		font-size:30px;
+	}
+	
+	.terms-text {
+		padding:15px 0;
+	}
+	
+	.terms-sub-heading {
+		font-size:22px;
+		padding:12px 0;
+	}
 }
 
 @media only screen and (max-width:480px) {
@@ -303,7 +349,9 @@
 	.main-unlock-title,
 	.main-page-title,
 	.contact-info-title,
-	.team-title {
+	.team-title,
+	.write-for-us-content h2,
+	.terms-page-title {
 		font-size:22px;
 	}
 	.contact-sub-info {
@@ -330,7 +378,10 @@
 	.get-in-touch,
 	.contact-info,
 	.contact-sub-info,
-	.team-members {
+	.team-members,
+	.write-for-us-content p,
+	.write-for-us-content li,
+	.terms-text {
 		font-size:16px;
 	}
 	.team-members span {
@@ -456,5 +507,37 @@
 	}
 	a.account-links {
 		display:none;
+	}
+	.four-four-title {
+		font-size:50px;
+	}
+	
+	.four-four-heading {
+		font-size:18px;
+	}
+	
+	.error-code {
+		font-size:18px;
+		padding:20px 0;
+	}
+	
+	.helpful-links-heading {
+		font-size:18px;
+	}
+	
+	.helpful-links li a {
+		font-size:16px;
+	}
+	
+	.terms-text {
+		padding:10px 0;
+	}
+	
+	.terms-sub-heading {
+		font-size:20px;
+		padding:8px 0;
+	}
+	.write-for-us-content {
+		padding-bottom:30px;
 	}
 }
