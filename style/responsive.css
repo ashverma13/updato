@@ -36,6 +36,37 @@
 	.unlock-phone-container {
 		width:47%;
 	}
+	.article-social {
+		position:static;
+		width:100%;
+	}
+	.article-social li {
+		display:inline-block;
+		margin-top:50px;
+	}
+	.article-social li + li {
+		margin-left:10px;
+	}
+	.article-content .wrapper {
+		padding-left:15px;
+	}
+	.features-item {
+		padding:40px 10px;
+	}
+	.region-search,
+	.version-search {
+		width:38%;
+	}
+	.items-search {
+		width:20%;
+	}
+	.forum-item-details {
+		padding-right:0;
+	}
+	.forum-meta {
+		position:static;
+		text-align:left;
+	}
 }
 
 @media only screen and (max-width:768px) {
@@ -138,6 +169,78 @@
 	.foot-nav li + li {
 		margin-left:10px;
 	}
+	.main-article,
+	.sidebar {
+		float:none;
+		width:100%;
+	}
+	.similar-posts-container .post-item, .similar-posts-container .post-item:nth-of-type(4n+1), .similar-posts-container .post-item:nth-of-type(2n+1) {
+		width:32%;
+		margin-left:2%;
+		clear:none;
+	}
+	.similar-posts-container .post-item:nth-of-type(3n+1) {
+		margin-left:0;
+		clear:left;
+	}
+	.sidebar {
+		padding:0 0 60px;
+	}
+	.col4,
+	.col4:nth-of-type(4n+1) {
+		width:49%;
+		clear:none;
+		margin-left:2%;
+		margin-bottom:20px;
+	}
+	.col4:nth-of-type(odd) {
+		clear:left;
+		margin-left:0;
+	}
+	.smart-search-container,
+	.smart-search-options {
+		width:100%;
+		float:none;
+		margin:0;
+	}
+	.smart-search-options {
+		margin-top:30px;
+	}
+	.dataTable,
+	.dataTable td,
+	.dataTable tr,
+	.dataTable tbody,
+	.dataTable thead {
+		display:block;
+	}
+	.dataTable thead {
+		position:absolute;
+		top:-9999em;
+		left:-9999em;
+	}
+	.dataTable td {
+		padding:10px;
+	}
+	.dataTable td:before {
+		content:attr(data-title);
+		display:block;
+		float:left;
+		width:50%;
+		text-transform:uppercase;
+		font-size:14px;
+		font-weight:500;
+		color:#434751;
+	}
+	.firmware-model,
+	.firmware-model-info,
+	.leftbar,
+	.forum-content {
+		float:none;
+		max-width:100%;
+		text-align:left;
+		margin-top:0;
+		width:100%;
+	}
 }
 
 @media only screen and (max-width:600px) {
@@ -162,6 +265,31 @@
 	.foot-nav li:first-of-type {
 		margin:0 5px;
 	}
+	.article-bg {
+		display:block;
+		margin:0 auto 30px;
+		position:static;
+	}
+	.banner-article {
+		padding:90px 0;
+	}
+	.unlock-model-options .custom-select-container {
+		max-width:200px;
+	}
+	.col3:nth-of-type(3n+1),
+	.col3 {
+		width:100%;
+		float:none;
+		margin-left:0;
+		clear:both;
+		margin-bottom:20px;
+	}
+	.links-list-left,
+	.links-list-right {
+		width:100%;
+		max-width:100%;
+		float:none;
+	}
 }
 
 @media only screen and (max-width:480px) {
@@ -170,17 +298,61 @@
 	}
 	.find-firmware-container h3,
 	.unlock-phone-container h3,
-	.f-post-info h3 {
+	.f-post-info h3,
+	.main-article-content h2,
+	.main-unlock-title,
+	.main-page-title,
+	.contact-info-title,
+	.team-title {
 		font-size:22px;
+	}
+	.contact-sub-info {
+		padding-bottom:20px;
+	}
+	.team-title {
+		padding-top:20px;
+	}
+	.main-page-title span {
+		font-size:28px;
+		margin-bottom:0;
 	}
 	.firmware-search-form label,
 	.unlock-phone-container p,
 	.f-post-info p,
-	.post-title {
+	.post-title,
+	.article-author,
+	.main-article-content p,
+	.features-item p,
+	.firmware-model-info,
+	.main-page-desc,
+	.main-page-desc span,
+	.launch-info,
+	.get-in-touch,
+	.contact-info,
+	.contact-sub-info,
+	.team-members {
 		font-size:16px;
 	}
+	.team-members span {
+		font-size:18px;
+	}
+	.seperator {
+		margin:0;
+	}
+	.banner-article {
+		padding-bottom:30px;
+	}
+	.article-social li,
+	.main-article-content p,
+	.main-article-content h2 {
+		margin-top:20px;
+	}
 	.f-post-info h3.f-main-title,
-	.section-title2 {
+	.section-title2,
+	.article-title,
+	.search-title,
+	.unlock-title,
+	.firmware-model {
 		font-size:24px;
 	}
 	.f-post-info h3.f-main-title {
@@ -194,7 +366,14 @@
 	}
 	.post-item,
 	.post-item:nth-of-type(2n+1),
-	.post-item:nth-of-type(4n+1) {
+	.post-item:nth-of-type(4n+1),
+	.similar-posts-container .post-item,
+	.similar-posts-container .post-item:nth-of-type(4n+1),
+	.similar-posts-container .post-item:nth-of-type(2n+1),
+	.similar-posts-container .post-item:nth-of-type(3n+1),
+	.col4,
+	.col4:nth-of-type(4n+1),
+	.col4:nth-of-type(2n+1) {
 		width:100%;
 		float:none;
 		clear:both;
@@ -230,5 +409,52 @@
 	}
 	.foot-social-nav {
 		margin-top:10px;
+	}
+	.similar-posts-container {
+		padding-bottom:30px;
+	}
+	.unlock-model-options .custom-select-container {
+		width:100%;
+		max-width:100%;
+		margin:10px 0;
+	}
+	.unlock-model-options {
+		padding-top:40px;
+	}
+	.unlock-info {
+		margin-top:30px;
+	}
+	.main-unlock-title {
+		margin-top:30px;
+	}
+	.unlock-features {
+		padding:40px 0;
+	}
+	.region-search,
+	.version-search,
+	.items-search {
+		margin:0;
+		float:none;
+		width:100%;
+		clear:both;
+	}
+	.version-search,
+	.items-search {
+		margin-top:10px;
+	}
+	.dataTable td:before {
+		display:block;
+		width:100%;
+		float:none;
+	}
+	.d-detail-title,
+	.d-detail {
+		width:100%;
+		float:none;
+		text-align:left;
+		display:block;
+	}
+	a.account-links {
+		display:none;
 	}
 }
