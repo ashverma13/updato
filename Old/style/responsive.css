@@ -1,0 +1,543 @@
+@media only screen and (max-width:1250px) {
+	.header,
+	.footer {
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.f-post-img {
+		width:50%;
+	}
+	.f-post-info {
+		padding-left:52%;
+	}
+	.f-post-info h3.f-main-title {
+		padding-top:30px;
+	}
+	.main-search .m-search-btn {
+		left:15px;
+	}
+	.main-search .close-search {
+		right:15px;
+	}
+	.main-search input {
+		padding-left:50px;
+		padding-right:50px;
+	}
+	.banner-home .f-post-info {
+		padding-right:0;
+	}
+	.four-four-container {
+		padding:100px 0;
+	}
+	
+	.terms-page-container {
+		padding:70px 0px;
+	}
+}
+
+@media only screen and (max-width:1024px) {
+	.main-nav > li > a {
+		padding-left:5px;
+		padding-right:5px;
+	}
+	.unlock-phone-container {
+		width:47%;
+	}
+	.article-social {
+		position:static;
+		width:100%;
+	}
+	.article-social li {
+		display:inline-block;
+		margin-top:50px;
+	}
+	.article-social li + li {
+		margin-left:10px;
+	}
+	.article-content .wrapper {
+		padding-left:15px;
+	}
+	.features-item {
+		padding:40px 10px;
+	}
+	.region-search,
+	.version-search {
+		width:38%;
+	}
+	.items-search {
+		width:20%;
+	}
+	.forum-item-details {
+		padding-right:0;
+	}
+	.forum-meta {
+		position:static;
+		text-align:left;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.mobile-menu {
+		float:right;
+		display:block;
+		margin:10px 0 0 30px;
+		width:32px;
+	}
+	.mobile-menu:before {
+		content:"";
+		display:block;
+		height:4px;
+		background:#fff;
+		width:100%;
+	}
+	.mobile-menu:after {
+		content:"";
+		display:block;
+		border-top:4px solid #fff;
+		border-bottom:4px solid #fff;
+		height:4px;
+		margin-top:4px;
+	}
+	.main-nav {
+		display:block;
+		padding:0;
+		position:absolute;
+		top:100%;
+		right:0;
+		width:250px;
+		max-width:50%;
+		background:#2d3041;
+		display:none;
+	}
+	.main-nav li {
+		display:block;
+		text-align:left;
+		margin:0;
+	}
+	.main-nav li:first-of-type,
+	.main-nav li + li {
+		margin:0;
+	}
+	.main-nav li a {
+		display:block;
+		padding:10px 20px;
+	}
+	.sub-nav {
+		left:auto;
+		right:100%;
+		top:0;
+		max-width:100%;
+	}
+	.main-nav > li > a:first-of-type:nth-last-child(2)::before,
+	.main-nav > li > a:hover:before,
+	.main-nav > li > a:before {
+		top:0;
+	}
+	.main-nav li span::before {
+		content:"More";
+		font-family:'Proxima Nova', Arial, Helvetica, sans-serif!important;
+		font-size:18px;
+		font-weight:500!important;
+	}
+	.find-firmware-container {
+		margin-top:0;
+		float:none;
+		width:100%;
+	}
+	.unlock-phone-container {
+		margin-top:30px;
+		float:none;
+		width:100%;
+	}
+	.f-post-img {
+		float:none;
+		width:100%;
+	}
+	.f-post-info {
+		padding-left:0;
+	}
+	.post-item {
+		width:49%;
+		float:left;
+		margin-left:2%;
+	}
+	.post-item:nth-of-type(odd) {
+		clear:left;
+		margin-left:0;
+	}
+	.forum-meta-info {
+		padding-right:0;
+	}
+	.forum-comments {
+		position:static;
+		padding-right:0;
+		margin-top:20px;
+	}
+	.foot-nav li + li {
+		margin-left:10px;
+	}
+	.main-article,
+	.sidebar {
+		float:none;
+		width:100%;
+	}
+	.similar-posts-container .post-item, .similar-posts-container .post-item:nth-of-type(4n+1), .similar-posts-container .post-item:nth-of-type(2n+1) {
+		width:32%;
+		margin-left:2%;
+		clear:none;
+	}
+	.similar-posts-container .post-item:nth-of-type(3n+1) {
+		margin-left:0;
+		clear:left;
+	}
+	.sidebar {
+		padding:0 0 60px;
+	}
+	.col4,
+	.col4:nth-of-type(4n+1) {
+		width:49%;
+		clear:none;
+		margin-left:2%;
+		margin-bottom:20px;
+	}
+	.col4:nth-of-type(odd) {
+		clear:left;
+		margin-left:0;
+	}
+	.smart-search-container,
+	.smart-search-options {
+		width:100%;
+		float:none;
+		margin:0;
+	}
+	.smart-search-options {
+		margin-top:30px;
+	}
+	.dataTable,
+	.dataTable td,
+	.dataTable tr,
+	.dataTable tbody,
+	.dataTable thead {
+		display:block;
+	}
+	.dataTable thead {
+		position:absolute;
+		top:-9999em;
+		left:-9999em;
+	}
+	.dataTable td {
+		padding:10px;
+	}
+	.dataTable td:before {
+		content:attr(data-title);
+		display:block;
+		float:left;
+		width:50%;
+		text-transform:uppercase;
+		font-size:14px;
+		font-weight:500;
+		color:#434751;
+	}
+	.firmware-model,
+	.firmware-model-info,
+	.leftbar,
+	.forum-content {
+		float:none;
+		max-width:100%;
+		text-align:left;
+		margin-top:0;
+		width:100%;
+	}
+	.four-four-container {
+		padding:60px 0;
+	}
+	
+	.error-code {
+		padding:40px 0;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.forum-cat {
+		float:none;
+		width:100%;
+		text-align:left;
+		padding-left:30px;
+	}
+	.forum-meta-info {
+		margin-top:20px;
+		padding-left:30px;
+	}
+	.forum-item-list li::before {
+		left:7px;
+	}
+	.forum-item-list li::after {
+		left:0;
+	}
+	.foot-nav li,
+	.foot-nav li + li,
+	.foot-nav li:first-of-type {
+		margin:0 5px;
+	}
+	.article-bg {
+		display:block;
+		margin:0 auto 30px;
+		position:static;
+	}
+	.banner-article {
+		padding:90px 0;
+	}
+	.unlock-model-options .custom-select-container {
+		max-width:200px;
+	}
+	.col3:nth-of-type(3n+1),
+	.col3 {
+		width:100%;
+		float:none;
+		margin-left:0;
+		clear:both;
+		margin-bottom:20px;
+	}
+	.links-list-left,
+	.links-list-right {
+		width:100%;
+		max-width:100%;
+		float:none;
+	}
+	.four-four-container {
+		padding:40px 0;
+	}
+	
+	.four-four-title {
+		font-size:64px;
+	}
+	
+	.four-four-heading {
+		font-size:24px;
+	}
+	
+	.error-code {
+		padding:30px 0;
+	}
+	
+	.terms-page-container {
+		padding:40px 0;
+	}
+	
+	.terms-page-title {
+		font-size:30px;
+	}
+	
+	.terms-text {
+		padding:15px 0;
+	}
+	
+	.terms-sub-heading {
+		font-size:22px;
+		padding:12px 0;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.banner-home {
+		padding:80px 0 60px;
+	}
+	.find-firmware-container h3,
+	.unlock-phone-container h3,
+	.f-post-info h3,
+	.main-article-content h2,
+	.main-unlock-title,
+	.main-page-title,
+	.contact-info-title,
+	.team-title,
+	.write-for-us-content h2,
+	.terms-page-title {
+		font-size:22px;
+	}
+	.contact-sub-info {
+		padding-bottom:20px;
+	}
+	.team-title {
+		padding-top:20px;
+	}
+	.main-page-title span {
+		font-size:28px;
+		margin-bottom:0;
+	}
+	.firmware-search-form label,
+	.unlock-phone-container p,
+	.f-post-info p,
+	.post-title,
+	.article-author,
+	.main-article-content p,
+	.features-item p,
+	.firmware-model-info,
+	.main-page-desc,
+	.main-page-desc span,
+	.launch-info,
+	.get-in-touch,
+	.contact-info,
+	.contact-sub-info,
+	.team-members,
+	.write-for-us-content p,
+	.write-for-us-content li,
+	.terms-text {
+		font-size:16px;
+	}
+	.team-members span {
+		font-size:18px;
+	}
+	.seperator {
+		margin:0;
+	}
+	.banner-article {
+		padding-bottom:30px;
+	}
+	.article-social li,
+	.main-article-content p,
+	.main-article-content h2 {
+		margin-top:20px;
+	}
+	.f-post-info h3.f-main-title,
+	.section-title2,
+	.article-title,
+	.search-title,
+	.unlock-title,
+	.firmware-model {
+		font-size:24px;
+	}
+	.f-post-info h3.f-main-title {
+		padding-top:10px;
+	}
+	.post-title {
+		padding:10px;
+	}
+	.post-date {
+		padding:0 10px 10px;
+	}
+	.post-item,
+	.post-item:nth-of-type(2n+1),
+	.post-item:nth-of-type(4n+1),
+	.similar-posts-container .post-item,
+	.similar-posts-container .post-item:nth-of-type(4n+1),
+	.similar-posts-container .post-item:nth-of-type(2n+1),
+	.similar-posts-container .post-item:nth-of-type(3n+1),
+	.col4,
+	.col4:nth-of-type(4n+1),
+	.col4:nth-of-type(2n+1) {
+		width:100%;
+		float:none;
+		clear:both;
+		margin-left:0;
+	}
+	a.join-discussion-btn {
+		clear:both;
+		float:none;
+		text-align:center;
+		margin-top:40px;
+	}
+	.load-more-btn a {
+		display:block;
+	}
+	.section-title2 {
+		float:none;
+	}
+	.latest-forum {
+		padding:30px 0;
+	}
+	.footer {
+		padding:30px 15px;
+	}
+	.foot-nav li {
+		font-size:10px;
+	}
+	.bottom-footer {
+		padding-top:30px;
+	}
+	.legal-info,
+	.foot-social-nav {
+		float:none;
+	}
+	.foot-social-nav {
+		margin-top:10px;
+	}
+	.similar-posts-container {
+		padding-bottom:30px;
+	}
+	.unlock-model-options .custom-select-container {
+		width:100%;
+		max-width:100%;
+		margin:10px 0;
+	}
+	.unlock-model-options {
+		padding-top:40px;
+	}
+	.unlock-info {
+		margin-top:30px;
+	}
+	.main-unlock-title {
+		margin-top:30px;
+	}
+	.unlock-features {
+		padding:40px 0;
+	}
+	.region-search,
+	.version-search,
+	.items-search {
+		margin:0;
+		float:none;
+		width:100%;
+		clear:both;
+	}
+	.version-search,
+	.items-search {
+		margin-top:10px;
+	}
+	.dataTable td:before {
+		display:block;
+		width:100%;
+		float:none;
+	}
+	.d-detail-title,
+	.d-detail {
+		width:100%;
+		float:none;
+		text-align:left;
+		display:block;
+	}
+	a.account-links {
+		display:none;
+	}
+	.four-four-title {
+		font-size:50px;
+	}
+	
+	.four-four-heading {
+		font-size:18px;
+	}
+	
+	.error-code {
+		font-size:18px;
+		padding:20px 0;
+	}
+	
+	.helpful-links-heading {
+		font-size:18px;
+	}
+	
+	.helpful-links li a {
+		font-size:16px;
+	}
+	
+	.terms-text {
+		padding:10px 0;
+	}
+	
+	.terms-sub-heading {
+		font-size:20px;
+		padding:8px 0;
+	}
+	.write-for-us-content {
+		padding-bottom:30px;
+	}
+}
